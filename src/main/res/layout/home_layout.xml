@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_linear_layout_height"
+        android:layout_marginTop="@dimen/home_linear_layout_margin_top">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/home_logo_width"
+            android:layout_height="@dimen/home_logo_height"
+            android:layout_marginLeft="@dimen/home_logo_margin_left"
+            android:src="@drawable/home_logo" />
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_toRightOf="@id/logo"
+            android:layout_width="@dimen/home_line1_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/home_line1_margin_left"
+            android:background="@android:color/darker_gray" />
+
+        <TabWidget
+            android:layout_toRightOf="@id/line_view"
+            android:id="@android:id/tabs"
+            android:layout_width="@dimen/home_tabwidget_width"
+            android:divider="@android:color/transparent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home_linear_layout1_height"
+            android:layout_marginRight="@dimen/home_linear_layout1_margin_right"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+            <com.pkit.launcher.view.DateView
+                android:id="@+id/text_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_20_sp"
+                android:textColor="@color/home_title_clock_color"/>
+            <View
+                android:layout_width="@dimen/home_line2_width"
+                android:layout_height="@dimen/home_line2_height"
+                android:layout_marginLeft="@dimen/home_line2_margin_left"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"/>
+            <com.pkit.launcher.view.DateView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/home_date_view_margin_left"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_16_sp"
+                android:textColor="@android:color/darker_gray"/>
+            <ImageView
+                android:layout_width="@dimen/home_image_view_width"
+                android:layout_height="@dimen/home_image_view_height"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/home_image_view_margin_left"
+                android:src="@drawable/home_weather"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_viewpager_height"
+        android:layout_marginTop="@dimen/home_vewpager_margin_top"/>
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="0dip"
+        android:layout_height="0dip" />
+</TabHost>

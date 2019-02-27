@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/home_television_item_width"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/home_recommend_margin_and_padding_3dip"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:nextFocusUp="@id/tab2">
+
+    <LinearLayout
+        android:id="@+id/home_television_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/home_recommend_margin_and_padding_2px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_television_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home_television_textview_height"
+            android:layout_marginTop="@dimen/home_television_textview_margin_top"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_30_sp" />
+
+        <ImageView
+            android:id="@+id/home_television_image"
+            android:layout_width="@dimen/home_television_image_width"
+            android:layout_height="@dimen/home_television_image_height"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:id="@+id/home_television_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextSwitcher
+                android:id="@+id/home_television_update_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_television_textview1_margin_start"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_44_sp" />
+
+            <View
+                android:layout_width="@dimen/home_television_view1_width"
+                android:layout_height="@dimen/home_television_view1_height"
+                android:layout_marginLeft="@dimen/home_television_view1_margin_start"
+                android:layout_marginRight="@dimen/home_television_view1_margin_end"
+                android:layout_marginTop="@dimen/home_television_view1_margin_top"
+                android:background="@color/television_view_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/home_television_linear_margin_top"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/home_television_update_info1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/television_textview_color"
+                        android:textSize="@dimen/text_size_16_sp" />
+
+                <ViewFlipper
+                    android:id="@+id/television_flipper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/home_television_update_info2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/television_textview_color"
+                        android:textSize="@dimen/text_size_16_sp" />
+                </ViewFlipper>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/home_television_focus_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_poster_focus"
+        android:visibility="gone" />
+</RelativeLayout>

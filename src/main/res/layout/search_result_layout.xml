@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false" >
+
+    <ProgressBar
+        android:id="@+id/search_result_item_list_loading"
+        android:layout_width="@dimen/z_search_result_item_list_loading_width"
+        android:layout_height="@dimen/z_search_result_item_list_loading_height"
+        android:layout_marginLeft="@dimen/z_search_result_item_list_loading_left"
+        android:layout_marginTop="@dimen/z_search_result_item_list_loading_top"
+        android:visibility="gone" />
+
+    <com.pkit.launcher.view.PageGridView
+        android:id="@+id/search_result_item_list"
+        android:layout_width="@dimen/z_search_result_item_list_width"
+        android:layout_height="@dimen/z_search_result_item_list_height"
+        android:layout_marginLeft="@dimen/z_search_result_item_list_left"
+        android:layout_marginTop="@dimen/z_search_result_item_list_top"
+        android:clipChildren="false" />
+
+    <!-- <com.pkit.launcher.view.GridViewWrapper -->
+    <!-- android:id="@+id/search_result_item_list" -->
+    <!-- android:layout_width="@dimen/z_search_result_item_list_width" -->
+    <!-- android:layout_height="@dimen/z_search_result_item_list_height" -->
+    <!-- android:layout_marginLeft="@dimen/z_search_result_item_list_left" -->
+    <!-- android:layout_marginTop="@dimen/z_search_result_item_list_top" -->
+    <!-- android:clipChildren="false" -->
+    <!-- android:horizontalSpacing="@dimen/z_search_result_item_list_spacing" -->
+    <!-- android:listSelector="@android:color/transparent" -->
+    <!-- android:numColumns="4" -->
+    <!-- android:scrollbars="none" -->
+    <!-- android:verticalSpacing="@dimen/z_search_result_item_list_spacing" > -->
+    <!-- </com.pkit.launcher.view.GridViewWrapper> -->
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1280px"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="播放页(电影)"
+    android:onClick="playMovice"
+    />
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="播放页(连续剧)"
+    android:onClick="playEpisode"
+    />
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="详情页(电影)"
+    android:onClick="inputDetailsMovice"
+    />
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="详情页(电视剧)"
+    android:onClick="inputDetailsEpisode"
+    />
+</LinearLayout>

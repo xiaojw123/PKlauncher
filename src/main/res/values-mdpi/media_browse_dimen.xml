@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 主题图标 -->
+    <dimen name="media_browser_icon_left">39dp</dimen>
+    <dimen name="media_browser_icon_top">33dp</dimen>
+    <dimen name="media_browser_icon_width">5dp</dimen>
+    <dimen name="media_browser_icon_height">26dp</dimen>
+    <!-- 主分类名 -->
+    <dimen name="media_browser_name_left">55dp</dimen>
+    <dimen name="media_browser_name_top">28dp</dimen>
+    <dimen name="media_browser_name_height">30dp</dimen>
+    <!-- 左边向导条 -->
+    <dimen name="media_browser_nav_top">87dp</dimen>
+    <dimen name="media_browser_nav_width">178dp</dimen>
+    <dimen name="media_browser_nav_height">738dp</dimen>
+    <!-- 分割线 -->
+    <dimen name="media_browser_line_left">58dp</dimen>
+    <dimen name="media_browser_line_top_1">1dp</dimen>
+    <dimen name="media_browser_line_width">73dp</dimen>
+    <dimen name="media_browser_line_height_1">1dp</dimen>
+    <dimen name="media_browser_line_top_2">3dp</dimen>
+    <dimen name="media_browser_line_height_2">3dp</dimen>
+    <!-- 搜索 -->
+    <dimen name="media_browser_search_left">42dp</dimen>
+    <dimen name="media_browser_search_width">101dp</dimen>
+    <dimen name="media_browser_search_height">37dp</dimen>
+    <dimen name="media_browser_search_icon_left">15dp</dimen>
+    <dimen name="media_browser_search_icon_width">19dp</dimen>
+    <dimen name="media_browser_search_icon_height">19dp</dimen>
+    <dimen name="media_browser_search_text_left">15dp</dimen>
+    <!-- <dimen name="media_browser_search_text_height">33dp</dimen> -->
+    <!-- 筛选 -->
+    <dimen name="media_browser_selector_left">42dp</dimen>
+    <dimen name="media_browser_selector_top">54dp</dimen>
+    <dimen name="media_browser_selector_width">101dp</dimen>
+    <dimen name="media_browser_selector_height">37dp</dimen>
+    <dimen name="media_browser_selector_icon_left">15dp</dimen>
+    <dimen name="media_browser_selector_icon_width">19dp</dimen>
+    <dimen name="media_browser_selector_icon_height">19dp</dimen>
+    <dimen name="media_browser_selector_text_left">15dp</dimen>
+    <!-- <dimen name="media_browser_selector_text_height">33dp</dimen> -->
+    <!-- 页数 -->
+    <dimen name="media_browser_page_right">26dp</dimen>
+    <dimen name="media_browser_page_top">39dp</dimen>
+    <dimen name="media_browser_page_height">20dp</dimen>
+    <!-- 影片数 -->
+    <dimen name="media_browser_count_right">39dp</dimen>
+    <dimen name="media_browser_count_top">38dp</dimen>
+    <dimen name="media_browser_count_height">20dp</dimen>
+    <!-- 全部栏目 -->
+    <dimen name="media_browser_all_left">42dp</dimen>
+    <dimen name="media_browser_all_top">105dp</dimen>
+    <dimen name="media_browser_all_width">101dp</dimen>
+    <dimen name="media_browser_all_height">33dp</dimen>
+    <dimen name="media_browser_header_height">39dp</dimen>
+    <!-- 栏目列表 -->
+    <dimen name="media_browser_menu_list_left">42dp</dimen>
+    <dimen name="media_browser_menu_list_top">113dp</dimen>
+    <dimen name="media_browser_menu_list_width">101dp</dimen>
+    <dimen name="media_browser_menu_list_height">414dp</dimen>
+    <dimen name="media_browser_menu_list_space">16dp</dimen>
+    <dimen name="media_browser_menu_item_height">37dp</dimen>
+    <!-- 影片列表容器 -->
+    <dimen name="media_browser_item_list_container_left">158dp</dimen>
+    <dimen name="media_browser_item_list_container_top">67dp</dimen>
+    <dimen name="media_browser_item_list_container_width">781dp</dimen>
+    <dimen name="media_browser_item_list_container_height">450dp</dimen>
+    <!-- 影片列表 -->
+    <dimen name="media_browser_item_list_left">20dp</dimen>
+    <dimen name="media_browser_item_list_top">20dp</dimen>
+    <dimen name="media_browser_item_list_width">741dp</dimen>
+    <dimen name="media_browser_item_list_height">410dp</dimen>
+    <dimen name="media_browser_item_padding_left">8dp</dimen>
+    <dimen name="media_browser_item_padding_bottom">8dp</dimen>
+    <dimen name="media_browser_item_width">145dp</dimen>
+    <dimen name="media_browser_item_height">203dp</dimen>
+    <dimen name="media_browser_item_spacing">4dp</dimen>
+    <dimen name="media_browser_mask_height">100dp</dimen>
+	<!-- 影片加载 -->
+	<dimen name="media_browser_item_list_loading_left">366dp</dimen>
+    <dimen name="media_browser_item_list_loading_top">203dp</dimen>
+    <dimen name="media_browser_item_list_loading_width">44dp</dimen>
+    <dimen name="media_browser_item_list_loading_height">44dp</dimen>
+</resources>

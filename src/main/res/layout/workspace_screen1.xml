@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.pkit.launcher.view.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="22dip"
+    android:paddingTop="22dip">
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_4"
+        android:layout_width="241dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_5"
+        android:layout_width="242dip"
+        android:layout_height="213dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:layout_toRightOf="@id/recommend_view_4"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_6"
+        android:layout_width="242dip"
+        android:layout_height="106dip"
+        android:layout_below="@id/recommend_view_5"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="4dip"
+        android:layout_toRightOf="@id/recommend_view_4"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/poster_view_1"
+        android:layout_width="307dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:nextFocusLeft="@id/recommend_view_5"
+        android:layout_toRightOf="@id/recommend_view_5"
+        android:focusable="true">
+        <include layout="@layout/home_poster_item_content" />
+    </RelativeLayout>
+</com.pkit.launcher.view.CellLayout>

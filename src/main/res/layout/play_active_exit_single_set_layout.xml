@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_40000000" >
+    <Button
+        android:id="@+id/play_active_exit_single_set_finish_watch_btn"
+        style="@style/PlayerExitButtonTheme"
+        android:layout_marginTop="@dimen/player_exit_btn1_top_margin"
+        android:nextFocusDown="@+id/play_active_exit_single_set_continue_watch_btn"
+        android:nextFocusUp="@id/play_active_exit_single_set_finish_watch_btn"
+        android:text="@string/finish_watch" />
+
+    <Button
+        android:id="@+id/play_active_exit_single_set_continue_watch_btn"
+        style="@style/PlayerExitButtonTheme"
+        android:layout_marginTop="@dimen/player_exit_btn2_top_margin"
+        android:nextFocusDown="@id/play_active_exit_single_set_continue_watch_btn"
+        android:nextFocusUp="@id/play_active_exit_single_set_finish_watch_btn"
+        android:text="@string/continue_watch" />
+
+    <TextView
+        android:id="@+id/play_active_exit_single_set_movice_name_textview"
+        style="@style/PlayerExitTitleTextTheme"
+        android:layout_marginLeft="@dimen/player_exit_film_name_left_margin" />
+
+    <ImageView
+        style="@style/PlayerExitHorizontalLineTheme"
+        android:layout_alignLeft="@id/play_active_exit_single_set_movice_name_textview"
+        android:layout_below="@id/play_active_exit_single_set_movice_name_textview" />
+
+    <include layout="@layout/player_exit_recommend_layout" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="@dimen/media_browser_icon_width"
+        android:layout_height="@dimen/media_browser_icon_height"
+        android:layout_marginLeft="@dimen/media_browser_icon_left"
+        android:layout_marginTop="@dimen/media_browser_icon_top"
+        android:src="@drawable/media_browser_icon" />
+
+    <TextView
+        android:id="@+id/media_browser_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/media_browser_name_height"
+        android:layout_marginLeft="@dimen/media_browser_name_left"
+        android:layout_marginTop="@dimen/media_browser_name_top"
+        android:text="@string/media_browser_name"
+        android:textColor="@color/green_0"
+        android:textSize="@dimen/text_size_26_sp" />
+
+    <TextView
+        android:id="@+id/media_browser_count"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/media_browser_count_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/media_browser_count_right"
+        android:layout_marginTop="@dimen/media_browser_count_top"
+        android:textColor="@color/gray_1"
+        android:textSize="@dimen/text_size_16_sp" />
+
+    <TextView
+        android:id="@+id/media_browser_page"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/media_browser_page_height"
+        android:layout_marginRight="@dimen/media_browser_page_right"
+        android:layout_marginTop="@dimen/media_browser_page_top"
+        android:layout_toLeftOf="@id/media_browser_count"
+        android:textColor="@color/gray_1"
+        android:textSize="@dimen/text_size_14_sp" />
+
+    <include
+        android:layout_width="@dimen/media_browser_nav_width"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/media_browser_nav_top"
+        layout="@layout/media_browser_nav_layout" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/media_browser_item_list_container_width"
+        android:layout_height="@dimen/media_browser_item_list_container_height"
+        android:layout_marginLeft="@dimen/media_browser_item_list_container_left"
+        android:layout_marginTop="@dimen/media_browser_item_list_container_top"
+        android:clipChildren="false" >
+
+        <ProgressBar
+            android:id="@+id/media_browser_item_list_loading"
+            android:layout_width="@dimen/media_browser_item_list_loading_width"
+            android:layout_height="@dimen/media_browser_item_list_loading_height"
+            android:layout_marginLeft="@dimen/media_browser_item_list_loading_left"
+            android:layout_marginTop="@dimen/media_browser_item_list_loading_top" />
+
+        <com.pkit.launcher.view.PageGridView
+            android:id="@+id/media_browser_item_list"
+            android:layout_width="@dimen/media_browser_item_list_width"
+            android:layout_height="@dimen/media_browser_item_list_height"
+            android:layout_marginLeft="@dimen/media_browser_item_list_left"
+            android:layout_marginTop="@dimen/media_browser_item_list_top"
+            android:clipChildren="false" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_browser_mask_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/details_mask_alllook" />
+
+</RelativeLayout>

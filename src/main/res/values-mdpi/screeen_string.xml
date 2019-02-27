@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selector_area">地区</string>
+    <string name="selector_type">类别</string>
+    <string name="selector_years">年代</string>
+    <string name="all">全部</string>
+    <string name="other">其他</string>
+    <string name="inland">内地</string>
+    <string name="hongkong">香港</string>
+    <string name="taiwan">台湾</string>
+    <string name="usa">美国</string>
+    <string name="japan">日本</string>
+    <string name="korea">韩国</string>
+    <string name="kehuan">科幻</string>
+    <string name="zhanzheng">战争</string>
+    <string name="aiqing">爱情</string>
+    <string name="mohuan">魔幻</string>
+    <string name="youmo">幽默</string>
+    <string name="gaoxiao">搞笑</string>
+    <string name="kongbu">恐怖</string>
+    <string name="juqing">剧情</string>
+    <string name="years_2014">2014</string>
+    <string name="years_2013">2013</string>
+    <string name="years_2012">2012</string>
+    <string name="years_2011">2011</string>
+    <string name="years_2010">2010</string>
+    <string name="years_09_00">90-00</string>
+</resources>

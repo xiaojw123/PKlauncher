@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/z_search_menu_height"
+    android:background="@drawable/search_menu_background"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/search_menu_search_buton"
+        android:layout_width="@dimen/z_search_menu_button_width"
+        android:layout_height="@dimen/z_search_menu_button_height"
+        android:layout_marginTop="@dimen/z_search_menu_button_top"
+        android:background="@drawable/search_button_bg" />
+
+    <Button
+        android:id="@+id/search_menu_selector_buton"
+        android:layout_width="@dimen/z_search_menu_button_width"
+        android:layout_height="@dimen/z_search_menu_button_height"
+        android:layout_marginLeft="@dimen/z_search_menu_button_spacing"
+        android:layout_marginTop="@dimen/z_search_menu_button_top"
+        android:background="@drawable/selector_button_bg" />
+
+</LinearLayout>

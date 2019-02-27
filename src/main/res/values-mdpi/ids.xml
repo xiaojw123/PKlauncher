@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tab1" />
+    <item type="id" name="tab2" />
+    <item type="id" name="tab3" />
+    <item type="id" name="tab4" />
+    <item type="id" name="topic1"/>
+    <item type="id" name="recommend_first_item" />
+    <item type="id" name="television_first_item" />
+    <item type="id" name="mine_first_item" />
+    <item type="id" name="settings_first_item" />
+</resources>

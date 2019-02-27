@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pkit.launcher.view.HomeRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/home_mine_view_padding_bottom"
+    android:paddingRight="@dimen/home_mine_view_padding_end"
+    android:paddingLeft="@dimen/home_mine_view_padding_start"
+    android:paddingTop="@dimen/home_mine_view_padding_top"
+    android:scrollbars="none" />

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_recommend_1_film_name">武媚娘传奇</string>
+    <string name="home_recommend_2_film_name">绝密战队</string>
+    <string name="home_recommend_3_film_name">姜秀敏系列电影</string>
+    <string name="home_recommend_4_film_name">风来运转</string>
+    <string name="home_recommend_5_film_name">锦绣缘之华丽冒险</string>
+    <string name="home_recommend_6_film_name">周星驰系列</string>
+    <string name="home_recommend_7_film_name">忠犬八公的故事</string>
+
+    <string name="home_recommend_1_topic_name">战争系列电影</string>
+    <string name="home_recommend_2_topic_name">扫毒系列电影</string>
+
+    <string name="home_recommend_poster1_name">神探狄仁杰</string>
+    <string name="home_recommend_poster2_name">博物馆起奇妙夜</string>
+    <string name="home_recommend_poster3_name">等风来</string>
+
+    <string name="recently_watched_title">最近观看</string>
+    <string name="collection_title">追剧/收藏</string>
+    <string name="home_recommend_user_record_recently_watched">最近观看</string>
+    <string name="home_recommend_user_record_collection">收藏/追剧</string>
+    <string name="home_recommend_user_record_child_lock">童锁</string>
+
+
+    <string name="home_recommend_film_quality_super_definition">超清</string>
+    <string name="home_recommend_film_quality_high_definition">高清</string>
+    <string name="home_recommend_film_quality_standard_definition">标清</string>
+    <string name="home_recommend_film_quality_blu_ray">蓝光</string>
+    <string name="home_topic_item_name">专题</string>
+
+    <string name="home_settings_network">网络设置</string>
+    <string name="home_settings_wallpaper">壁纸</string>
+    <string name="home_settings_reset">恢复出厂设置</string>
+    <string name="home_settings_child">童锁</string>
+    <string name="home_settings_update">检查更新</string>
+    <string name="home_settings_about">关于我们</string>
+
+    <string name="home_mine_recently_watched">最近观看</string>
+    <string name="home_mine_collection">收藏追剧</string>
+    <string name="home_mine_buy">消费记录</string>
+
+    <string name="home_television_film">电影</string>
+    <string name="home_television_teleplay">电视剧</string>
+    <string name="home_television_variety">综艺</string>
+    <string name="home_television_anime">动漫</string>
+
+    <string name="home_television_test1_data1">超凡蜘蛛侠</string>
+    <string name="home_television_test1_data2">上线</string>
+    <string name="home_television_test2_data1">武媚娘传奇</string>
+    <string name="home_television_test2_data2">更新到25集</string>
+    <string name="home_television_test3_data1">快乐大本营</string>
+    <string name="home_television_test3_data2">更新到第129期</string>
+    <string name="home_television_test4_data1">海贼王</string>
+    <string name="home_television_test4_data2">更新到214集</string>
+
+    <string name="text_01">何以笙箫默</string>
+    <string name="text_02">活色生香</string>
+    <string name="text_03">来自星星的你</string>
+
+    <string name="text_04">临时同居</string>
+    <string name="text_05">心花路放</string>
+    <string name="text_06">等一个人咖啡</string>
+
+    <string name="text_07">花儿与少年第二季</string>
+    <string name="text_08">奔跑吧兄弟第二季</string>
+    <string name="text_09">2015白宫记者协会晚宴</string>
+</resources>

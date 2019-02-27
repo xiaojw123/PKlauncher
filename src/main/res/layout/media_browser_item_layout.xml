@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/media_browser_item_width"
+    android:layout_height="@dimen/media_browser_item_height" >
+
+    <ImageView
+        android:id="@+id/media_browser_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/media_browser_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="left|bottom"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="@dimen/media_browser_item_padding_bottom"
+        android:paddingLeft="@dimen/media_browser_item_padding_left"
+        android:singleLine="true"
+        android:textColor="@drawable/media_browser_text_color"
+        android:background="@drawable/media_browser_item_normal"
+        android:textSize="@dimen/text_size_16_sp" />
+
+</RelativeLayout>

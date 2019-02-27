@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="media_browser_name">电 影</string>
+    <string name="media_browser_count">共123456部</string>
+    <string name="media_browser_page">2/8</string>
+
+</resources>

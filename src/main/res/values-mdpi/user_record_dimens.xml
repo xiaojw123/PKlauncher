@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_record_title_height">75dip</dimen>
+    <dimen name="user_record_logo_width">29dip</dimen>
+    <dimen name="user_record_logo_height">27dip</dimen>
+    <dimen name="user_record_logo_margin_left">42dip</dimen>
+    <dimen name="user_record_title_text_margin_left">13dip</dimen>
+    <dimen name="user_record_title_text_margin_end">40dip</dimen>
+    <dimen name="user_record_title_image">19dip</dimen>
+    <dimen name="user_record_title_image_margin">4dip</dimen>
+
+    <dimen name="recently_watched_layout_height">450dip</dimen>
+    <dimen name="recently_watched_content_width">878dip</dimen>
+    <dimen name="recently_watched_content_padding_start">26dip</dimen>
+    <dimen name="recently_watched_content_padding_end">27dip</dimen>
+    <dimen name="recently_watched_content_margin_start">26dip</dimen>
+    <dimen name="recently_watched_content_margin_end">27dip</dimen>
+    <dimen name="recently_watched_time_line_height">67dip</dimen>
+    <dimen name="recently_watched_content_height">342dip</dimen>
+    <dimen name="time_line_item_width">210dip</dimen>
+    <dimen name="time_line_item_line_margin_top">42dip</dimen>
+    <dimen name="time_line_item_point_margin_top">27dip</dimen>
+    <dimen name="time_line_item_text_margin_top">11dip</dimen>
+    <dimen name="time_line_item_text_margin_left">5dip</dimen>
+    <dimen name="recently_watched_item_width">213dip</dimen>
+    <dimen name="recently_watched_item_height">296dip</dimen>
+    <dimen name="recently_watched_items_width">210dip</dimen>
+    <dimen name="recently_watched_item_image_height">294dip</dimen>
+    <dimen name="recently_watched_item_progress_height">3dip</dimen>
+    <dimen name="recently_watched_item_text_height">45dip</dimen>
+    <dimen name="recently_watched_item_text_margin_bottom">4dip</dimen>
+    <dimen name="recently_watched_item_text_margin_left">10dip</dimen>
+
+    <dimen name="collection_layout_width">867dip</dimen>
+    <dimen name="collection_layout_height">342dip</dimen>
+    <dimen name="collection_layout_margin_top">45dip</dimen>
+    <dimen name="collection_layout_padding_start">26dip</dimen>
+    <dimen name="collection_layout_padding_end">27dip</dimen>
+    <dimen name="collection_layout_margin_start">26dip</dimen>
+    <dimen name="collection_layout_margin_end">27dip</dimen>
+    <dimen name="collection_layout_item_width">210dip</dimen>
+    <dimen name="collection_layout_item_height">296dip</dimen>
+    <dimen name="collection_items_width">210dip</dimen>
+    <dimen name="collection_item_image_height">294dip</dimen>
+    <dimen name="collection_item_text_height">54dip</dimen>
+    <dimen name="collection_item_text_padding_left">10dip</dimen>
+
+    <dimen name="user_record_padding_and_margin_2px">1dip</dimen>
+</resources>

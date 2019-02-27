@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/recently_watched_item_width"
+    android:layout_height="@dimen/recently_watched_item_height"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <ImageView
+        android:id="@+id/recently_watched_image"
+        android:layout_width="@dimen/recently_watched_items_width"
+        android:layout_height="@dimen/recently_watched_item_image_height"
+        android:layout_margin="@dimen/user_record_padding_and_margin_2px"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="@dimen/recently_watched_items_width"
+        android:layout_height="@dimen/recently_watched_item_progress_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginRight="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginBottom="@dimen/user_record_padding_and_margin_2px"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/progressbar_color" />
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="@dimen/recently_watched_items_width"
+        android:layout_height="@dimen/recently_watched_item_text_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginRight="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginBottom="@dimen/recently_watched_item_text_margin_bottom"
+        android:paddingLeft="@dimen/recently_watched_item_text_margin_left"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:background="@drawable/recently_watched__poster_name_background"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/user_record_itme_text_color"
+        android:textSize="@dimen/text_size_20_sp" />
+    <ImageView
+        android:id="@+id/focus_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_poster_focus"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/delete_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/user_record_padding_and_margin_2px"
+        android:background="@color/user_record_item_delete_background"
+        android:padding="60dip"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:src="@drawable/recently_watched_delete_icon" />
+
+</RelativeLayout>

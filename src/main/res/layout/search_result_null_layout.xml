@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/search_result_null_layout_left_margin" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_result_tv_left_margin"
+        android:layout_marginTop="@dimen/search_result_tv_top_margin"
+        android:gravity="left"
+        android:text="@string/search_result"
+        android:textColor="@color/color_bbbdbf"
+        android:textSize="@dimen/text_size_18_sp"
+        android:textStyle="bold" />
+    <!-- 516  187 -->
+    <TextView
+        android:id="@+id/search_result_null_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_result_no_condition_tv_left_margin"
+        android:layout_marginTop="@dimen/search_result_no_condition_tv_top_margin"
+        android:drawablePadding="@dimen/search_result_no_condition_tv_drawable_padding"
+        android:drawableTop="@drawable/search_iocn_lose"
+        android:text="@string/current_condition_no_result"
+        android:textColor="@color/color_fafafa"
+        android:textSize="@dimen/text_size_18_sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/search_result_recommend_tv_left_margin"
+        android:layout_marginTop="@dimen/search_result_recommend_tv_top_margin"
+        android:gravity="left"
+        android:text="@string/recommend_for_you"
+        android:textColor="@color/color_00d360"
+        android:textSize="@dimen/text_size_18_sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/search_result_null_item_list_container"
+        android:layout_width="@dimen/search_result_null_item_list_container_width"
+        android:layout_height="@dimen/search_result_null_item_list_container_height"
+        android:layout_marginLeft="@dimen/search_result_null_item_list_container_left_margin"
+        android:layout_marginTop="@dimen/search_result_null_item_list_container_top_margin"
+        android:clipChildren="false"
+        android:gravity="center" >
+
+        <!-- item w 145 h 203 -->
+
+        <com.pkit.launcher.view.GridViewWrapper
+            android:id="@+id/search_result_null_item_list"
+            android:layout_width="@dimen/search_result_null_item_list_width"
+            android:layout_height="@dimen/search_result_null_item_list_height"
+            android:clipChildren="false"
+            android:horizontalSpacing="@dimen/search_result_null_item_list_spacing_horzontail"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:verticalSpacing="@dimen/search_result_null_item_list_spacing_vertail" />
+    </RelativeLayout>
+
+</RelativeLayout>

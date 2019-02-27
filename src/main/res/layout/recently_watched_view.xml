@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_record"
+    android:layout_width="@dimen/home_recommend_user_record_width"
+    android:layout_height="@dimen/home_recommend_user_record_height"
+    android:background="@color/recommend_user_record_background_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView android:id="@+id/user_record_iamge"
+        android:layout_width="@dimen/home_recommend_user_record_image_width"
+        android:layout_height="@dimen/home_recommend_user_record_image_height"/>
+
+    <TextView
+        android:id="@+id/user_record_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/home_recommend_user_record_text_margin_top"
+        android:textColor="@color/recommend_film_name_color"
+        android:textSize="@dimen/text_size_18_sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pkit.launcher.view.HomeRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="@dimen/collection_layout_width"
+    android:layout_height="@dimen/collection_layout_height"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/collection_layout_margin_start"
+    android:layout_marginTop="@dimen/collection_layout_margin_top"
+    android:layout_marginRight="@dimen/collection_layout_margin_end"
+    android:paddingLeft="@dimen/collection_layout_padding_start"
+    android:paddingTop="21dip"
+    android:paddingRight="@dimen/collection_layout_padding_end"
+    android:scrollbars="none"/>

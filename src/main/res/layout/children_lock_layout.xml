@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.pkit.launcher.view.HomePagedView
+        android:id="@+id/switch_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        launcher:defaultScreen="0">
+        <com.pkit.launcher.view.CellLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/children_lock_1"/>
+        </com.pkit.launcher.view.CellLayout>
+        <com.pkit.launcher.view.CellLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/children_lock_2"/>
+        </com.pkit.launcher.view.CellLayout>
+        <com.pkit.launcher.view.CellLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/children_lock_3"/>
+        </com.pkit.launcher.view.CellLayout>
+    </com.pkit.launcher.view.HomePagedView>
+    <include layout="@layout/user_record_title_layout" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/player_exit_recommend_item_width"
+    android:layout_height="@dimen/player_exit_recommend_item_height"
+    >
+     <ImageView 
+         android:id="@+id/player_exit_recommend_poster"         
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="@dimen/player_exit_recommend_spacing"
+         />
+         <ImageView 
+        android:id="@+id/player_exit_recommend_focus_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/player_exit_recommend_spacing"
+        android:background="@drawable/player_exit_recommend_bg"
+        />   
+     <TextView 
+         android:id="@+id/player_exit_recommend_name"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignLeft="@id/player_exit_recommend_poster"
+         android:layout_alignRight="@id/player_exit_recommend_poster"
+         android:layout_alignBottom="@id/player_exit_recommend_poster"
+         android:background="@drawable/details_recommend_name_bg"
+         android:gravity="left|bottom"
+         android:textSize="@dimen/text_size_15_sp"
+         android:textColor="@drawable/player_exit_recommend_name_textcolor"
+         android:paddingLeft="@dimen/player_exit_recommend_name_unselected_left_padding"
+         android:paddingBottom="@dimen/player_exit_recommend_name_unselected_bottom_padding"
+         />
+    
+</RelativeLayout>

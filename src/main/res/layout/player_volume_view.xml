@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_volume_llt"
+    android:layout_width="@dimen/player_volume_llt_width"
+    android:layout_height="@dimen/player_volume_llt_height"
+    android:layout_marginLeft="@dimen/player_volume_llt_left_margin"
+    android:layout_marginTop="@dimen/player_volume_llt_top_margin"
+    android:background="@color/color_50000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/player_volume_add_icon_img"
+        android:layout_width="@dimen/player_volume_add_icon_img_width"
+        android:layout_height="@dimen/player_volume_add_icon_img_height"
+        android:layout_marginTop="@dimen/player_volume_add_icon_img_top_margin"
+        android:background="@drawable/player_volume_icon_add" />
+
+    <com.pkit.launcher.view.VolumeSeekBar
+        android:id="@+id/player_volume_skb"
+        android:layout_width="@dimen/player_volume_skb_width"
+        android:layout_height="@dimen/player_volume_skb_height"
+        android:layout_marginTop="@dimen/player_volume_skb_top_margin"
+        android:maxHeight="@dimen/player_volume_skb_max_height"
+        android:progressDrawable="@drawable/player_seekbar_layerlist"
+        android:thumb="@drawable/player_volume_icon_progressbar"
+        android:thumbOffset="@dimen/player_volume_skb_thumb_offset" />
+
+    <TextView
+        android:id="@+id/player_volume_reduce_icon_img"
+        android:layout_width="@dimen/player_volume_reduce_icon_img_width"
+        android:layout_height="@dimen/player_volume_reduce_icon_img_height"
+        android:layout_marginTop="@dimen/player_volume_reduce_icon_img_top_margin"
+        android:background="@drawable/player_volume_icon_reduce" />
+
+</LinearLayout>

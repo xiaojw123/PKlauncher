@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/user_record_title_height">
+    <ImageView android:id="@+id/user_record_icon"
+        android:layout_width="@dimen/user_record_logo_width"
+        android:layout_height="@dimen/user_record_logo_height"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="@dimen/user_record_logo_margin_left"
+        android:layout_centerVertical="true"
+        android:src="@drawable/wallpaper_chooser_title_image"/>
+    <TextView
+        android:id="@+id/user_record_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_size_22_sp"
+        android:textColor="@color/user_record_title_text_color"
+        android:layout_marginLeft="@dimen/user_record_title_text_margin_left"
+        android:layout_toRightOf="@id/user_record_icon"
+        android:text="壁纸设置"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/user_record_title_text_margin_end"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_18_sp"/>
+        <ImageView
+            android:layout_width="@dimen/user_record_title_image"
+            android:layout_height="@dimen/user_record_title_image"
+            android:layout_marginTop="@dimen/user_record_title_image_margin"
+            android:layout_marginLeft="@dimen/user_record_title_image_margin"
+            android:layout_marginRight="@dimen/user_record_title_image_margin"
+            android:src="@drawable/wallpaper_menu_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="确定键更换壁纸"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_18_sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

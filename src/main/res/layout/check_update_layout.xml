@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="32dip"
+            android:layout_height="21dip"
+            android:layout_marginLeft="41dip"
+            android:background="@drawable/check_update_title_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="检查更新"
+            android:textSize="21dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dip"
+        android:layout_marginTop="23dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="当前版本:"
+            android:textColor="#979797"
+            android:textSize="18dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="1.0.00"
+            android:textColor="#979797"
+            android:textSize="18dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="( 测试版 )"
+            android:textColor="@android:color/white"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dip"
+        android:background="@drawable/check_update_background">
+
+        <LinearLayout
+            android:id="@+id/update_info_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dip"
+            android:layout_marginLeft="56dip"
+            android:layout_marginTop="16dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="发现新版本: "
+                android:textColor="#00CE5E"
+                android:textSize="19dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="1.0.00"
+                android:textColor="#E2E2E2"
+                android:textSize="19dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="( 测试版 )"
+                android:textColor="@android:color/white"
+                android:textSize="19dip" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/update_info_scrollview"
+            android:layout_width="775dip"
+            android:layout_height="205dip"
+            android:layout_below="@id/update_info_version"
+            android:scrollbarThumbVertical="@drawable/scrollview_thumb"
+            android:fadeScrollbars="false"
+            android:scrollbarSize="5dip"
+            android:layout_marginLeft="63dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="19dip"
+                    android:layout_marginTop="22px"
+                    android:text="[系统]"
+                    android:textColor="#FFD133"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:lineSpacingExtra="19dip"
+                    android:text="1.Foursquare\n2.LinkedIn\n3.Zappos\n4.Rdio\n5.Evernote Food\n6.Plume\n7.VLC for Android\n8.ESPN ScoreCenter\n9.MLS MatchDay\n10.9GAG\n11.Wunderlist 2\n12.The Verge\n13.MTG Familiar\n14.Mantano Reader\n15.Falcon Pro (BETA)\n16.MW3 Barracks"
+                    android:textColor="#979797"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/update_info_scrollview"
+            android:layout_width="115dip"
+            android:layout_height="36dip"
+            android:background="@drawable/update_revert_button_select"
+            android:textColor="#8EC984"
+            android:textSize="22dip"
+            android:text="立即更新"/>
+    </RelativeLayout>
+</LinearLayout>

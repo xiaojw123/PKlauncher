@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.pkit.launcher.view.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="45dip"
+    android:paddingBottom="22dip"
+    android:paddingTop="22dip">
+
+    <LinearLayout
+        android:id="@+id/user_record"
+        android:layout_width="102dip"
+        android:layout_height="103dip"
+        android:nextFocusUp="@id/tab1"
+        android:background="@color/recommend_user_record_background_color"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <include layout="@layout/home_user_record_item_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_record1"
+        android:layout_width="102dip"
+        android:layout_height="103dip"
+        android:layout_below="@id/user_record"
+        android:layout_marginTop="7dip"
+        android:background="@color/recommend_user_record_background_color"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <include layout="@layout/home_user_record_item_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_record2"
+        android:layout_width="102dip"
+        android:layout_height="103dip"
+        android:layout_below="@id/user_record1"
+        android:layout_marginTop="7dip"
+        android:background="@color/recommend_user_record_background_color"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <include layout="@layout/home_user_record_item_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_1"
+        android:layout_width="241dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:nextFocusLeft="@id/user_record"
+        android:nextFocusDown="@id/recommend_view_1"
+        android:layout_toRightOf="@id/user_record"
+        android:focusable="true">
+
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_2"
+        android:layout_width="242dip"
+        android:layout_height="213dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:layout_toRightOf="@id/recommend_view_1"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_3"
+        android:layout_width="242dip"
+        android:layout_height="106dip"
+        android:layout_below="@id/recommend_view_2"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="4dip"
+        android:layout_toRightOf="@id/recommend_view_1"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/topic_view_1"
+        android:layout_width="244dip"
+        android:layout_height="159dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:layout_toRightOf="@id/recommend_view_2"
+        android:focusable="true">
+        <include layout="@layout/home_topic_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/topic_view_2"
+        android:layout_width="244dip"
+        android:layout_height="159dip"
+        android:layout_below="@id/topic_view_1"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/recommend_view_2"
+        android:focusable="true">
+        <include layout="@layout/home_topic_item_content" />
+    </RelativeLayout>
+</com.pkit.launcher.view.CellLayout>

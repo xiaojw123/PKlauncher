@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.pkit.launcher.view.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="22dip"
+    android:paddingTop="22dip"
+    android:paddingRight="20dip">
+
+    <RelativeLayout
+        android:id="@+id/poster_view_2"
+        android:layout_width="307dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:focusable="true">
+        <include layout="@layout/home_poster_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/poster_view_3"
+        android:layout_width="307dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:layout_toRightOf="@id/poster_view_2"
+        android:focusable="true">
+        <include layout="@layout/home_poster_item_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend_view_7"
+        android:layout_width="241dip"
+        android:layout_height="323dip"
+        android:layout_marginLeft="5dip"
+        android:nextFocusUp="@id/tab1"
+        android:layout_toRightOf="@id/poster_view_3"
+        android:visibility="gone"
+        android:focusable="true">
+        <include layout="@layout/recommend_item_content" />
+    </RelativeLayout>
+</com.pkit.launcher.view.CellLayout>

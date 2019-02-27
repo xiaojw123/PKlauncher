@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_40000000" xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:id="@+id/play_active_exit_multi_set_pre_set_btn"
+            style="@style/PlayerExitButtonTheme"
+            android:layout_marginTop="@dimen/player_exit_btn1_top_margin"
+            android:visibility="gone"
+            android:text="@string/pre_set" />
+        <Button
+            android:id="@+id/play_active_exit_multi_set_next_set_btn"
+            style="@style/PlayerExitButtonTheme"
+            android:layout_marginTop="@dimen/player_exit_btn2_top_margin"
+            android:visibility="gone"
+            android:text="@string/next_set" />
+
+        <Button
+            android:id="@+id/play_active_exit_multi_set_finish_watch"
+            style="@style/PlayerExitButtonTheme"
+            android:layout_marginTop="@dimen/player_exit_btn3_top_margin"
+            android:text="@string/finish_watch" />
+
+        <Button
+            android:id="@+id/play_active_exit_multi_set_continue_watch"
+            style="@style/PlayerExitButtonTheme"
+            android:layout_marginTop="@dimen/player_exit_btn4_top_margin"
+            android:text="@string/continue_watch" />
+              <TextView
+                android:id="@+id/play_active_exit_multi_set_episode_name"
+                style="@style/PlayerExitTitleTextTheme"
+                 />
+            <ImageView style="@style/PlayerExitHorizontalLineTheme"
+                android:layout_below="@id/play_active_exit_multi_set_episode_name"
+                android:layout_alignLeft="@id/play_active_exit_multi_set_episode_name"
+                 />
+        <include layout="@layout/player_exit_recommend_layout" />
+    </RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 搜索上方输入提示 -->
+    <dimen name="z_search_keyboard_layout_width">295dp</dimen>
+    <dimen name="z_search_input_left_margin">36dp</dimen>
+    <dimen name="z_search_input_top_margin">49dp</dimen>
+    <dimen name="z_search_input_width">249dp</dimen>
+    <dimen name="z_search_input_height">27dp</dimen>
+    <dimen name="z_search_input_drawable_padding">15dp</dimen>
+    <dimen name="z_search_line_left_margin">36dp</dimen>
+    <dimen name="z_search_line_top_margin">78dp</dimen>
+    <dimen name="z_search_line_width">249dp</dimen>
+    <dimen name="z_search_line_height">1dp</dimen>
+    <!-- 输入按键位置 -->
+    <dimen name="z_search_key_width">33dp</dimen>
+    <dimen name="z_search_key_height">33dp</dimen>
+    <dimen name="z_search_key_del_width">71dp</dimen>
+    <dimen name="z_search_key_del_left_margin">76dp</dimen>
+    <dimen name="z_search_key_del_top_margin">76dp</dimen>
+    <dimen name="z_search_key_row1_top_margin">90dp</dimen>
+    <dimen name="z_search_key_row2_top_margin">128dp</dimen>
+    <dimen name="z_search_key_row3_top_margin">166dp</dimen>
+    <dimen name="z_search_key_row4_top_margin">205dp</dimen>
+    <dimen name="z_search_key_row5_top_margin">243dp</dimen>
+    <dimen name="z_search_key_row6_top_margin">281dp</dimen>
+    <dimen name="z_search_key_column1_left_margin">36dp</dimen>
+    <dimen name="z_search_key_column2_left_margin">72dp</dimen>
+    <dimen name="z_search_key_column3_left_margin">108dp</dimen>
+    <dimen name="z_search_key_column4_left_margin">144dp</dimen>
+    <dimen name="z_search_key_column5_left_margin">180dp</dimen>
+    <dimen name="z_search_key_column6_left_margin">216dp</dimen>
+    <dimen name="z_search_key_column7_left_margin">252dp</dimen>
+    <dimen name="z_search_example_left_margin">37dp</dimen>
+    <dimen name="z_search_example_top_margin">422dp</dimen>
+    <dimen name="z_search_example_width">449dp</dimen>
+    <dimen name="z_search_example_height">44dp</dimen>
+    <!-- 搜索结果左上角提示 -->
+    <dimen name="z_search_result_text_1_left">327dp</dimen>
+    <dimen name="z_search_result_text_1_top">39dp</dimen>
+    <dimen name="z_search_result_text_1_height">22dp</dimen>
+    <!-- 搜索结果右上角提示 -->
+    <dimen name="z_search_result_text_2_right">41dp</dimen>
+    <dimen name="z_search_result_text_2_top">36dp</dimen>
+    <dimen name="z_search_result_text_2_height">22dp</dimen>
+    <!-- 搜索无结果提示 -->
+    <dimen name="z_search_result_text_3_left">562dp</dimen>
+    <dimen name="z_search_result_text_3_top">80dp</dimen>
+    <dimen name="z_search_result_text_3_width">75dp</dimen>
+    <dimen name="z_search_result_text_3_height">75dp</dimen>
+    <!-- 搜索无结果下方文字 -->
+    <dimen name="z_search_result_text_4_left">327dp</dimen>
+    <dimen name="z_search_result_text_4_top">238dp</dimen>
+    <dimen name="z_search_result_text_4_height">22dp</dimen>
+    <!-- 搜索影片列表 -->
+    <dimen name="z_search_result_item_list_container_top">60dp</dimen>
+    <dimen name="z_search_result_item_list_left">327dp</dimen>
+    <dimen name="z_search_result_item_list_top">20dp</dimen>
+    <dimen name="z_search_result_item_list_width">592dp</dimen>
+    <dimen name="z_search_result_item_list_height">410dp</dimen>
+    <dimen name="z_search_result_item_list_spacing">4dp</dimen>
+    <!-- 搜索中 -->
+    <dimen name="z_search_result_item_list_loading_top">205dp</dimen>
+    <dimen name="z_search_result_item_list_loading_left">583dp</dimen>
+    <dimen name="z_search_result_item_list_loading_width">80dp</dimen>
+    <dimen name="z_search_result_item_list_loading_height">80dp</dimen>
+    <!-- 为你推荐影片列表 -->
+    <dimen name="z_search_recommend_item_list_left">327dp</dimen>
+    <dimen name="z_search_recommend_item_list_top">270dp</dimen>
+    <dimen name="z_search_recommend_item_list_width">592dp</dimen>
+    <dimen name="z_search_recommend_item_list_height">233dp</dimen>
+    <dimen name="z_search_recommend_item_list_spacing">4dp</dimen>
+    <dimen name="z_search_recommend_item_width">145dp</dimen>
+    <dimen name="z_search_recommend_item_height">203dp</dimen>
+    <!-- 搜索菜单 -->
+    <dimen name="z_search_menu_height">385dp</dimen>
+    <dimen name="z_search_menu_top">155dp</dimen>
+    <dimen name="z_search_menu_button_top">266dp</dimen>
+    <dimen name="z_search_menu_button_spacing">17dp</dimen>
+    <dimen name="z_search_menu_button_width">115dp</dimen>
+    <dimen name="z_search_menu_button_height">36dp</dimen>
+    <dimen name="z_search_menu_button_padding_left">15dp</dimen>
+
+    <!-- 筛选布局 -->
+    <dimen name="z_search_selector_width">295dp</dimen>
+    <dimen name="z_search_selector_column_top">13dp</dimen>
+    <dimen name="z_search_selector_column_width">81dp</dimen>
+    <dimen name="z_search_selector_column_height">407dp</dimen>
+    <dimen name="z_search_selector_column_line_top">36dp</dimen>
+    <dimen name="z_search_selector_column_line_width">1dp</dimen>
+    <dimen name="z_search_selector_column_line_height">468dp</dimen>
+    <dimen name="z_search_selector_title_text_top">37dp</dimen>
+    <dimen name="z_search_selector_title_line_top">3dp</dimen>
+    <dimen name="z_search_selector_title_line_height">1dp</dimen>
+    <dimen name="z_search_selector_title_line_width">39dp</dimen>
+    <dimen name="z_search_selector_up_top">10dp</dimen>
+    <dimen name="z_search_selector_down_top">10dp</dimen>
+    <dimen name="z_search_selector_arrow_width">15dp</dimen>
+    <dimen name="z_search_selector_arrow_height">9dp</dimen>
+    <dimen name="z_search_selector_zone_left">36dp</dimen>
+    <dimen name="z_search_selector_cat_left">15dp</dimen>
+    <dimen name="z_search_selector_year_left">15dp</dimen>
+    <dimen name="z_search_selector_item_spacing">30dp</dimen>
+    <dimen name="z_search_selector_item_height">30dp</dimen>
+
+</resources>

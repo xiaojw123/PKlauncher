@@ -1,0 +1,96 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+        <!-- wrong message dialog style -->
+    <style name="wrong_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- details theme -->
+    <style name="DetailsMediaAttrTitleTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">@dimen/details_video_detail_item_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_ffd133</item>
+        <item name="android:textSize">@dimen/text_size_16_sp</item>
+    </style>
+
+    <style name="DetailsMediaAttrContentTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/color_e4e4e4</item>
+        <item name="android:textSize">@dimen/text_size_16_sp</item>
+    </style>
+    <!-- Play exit end theme -->
+    <style name="PlayerExitHorizontalLineTheme" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/play_exit_or_end_horizontail_dividing_line_width</item>
+        <item name="android:layout_height">@dimen/play_exit_or_end_horizontail_dividing_line_height</item>
+        <item name="android:layout_marginTop">@dimen/play_exit_or_end_horizontail_dividing_line_top_margin</item>
+        <item name="android:background">@drawable/player_end_icon_line_img</item>
+    </style>
+    <style name="PlayerExitTitleTextTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/green_dark</item>
+        <item name="android:textSize">@dimen/text_size_27_sp</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_marginLeft">@dimen/player_exit_film_name_left_margin</item>
+        <item name="android:layout_marginTop">@dimen/player_exit_film_name_top_margin</item>
+    </style>
+
+    <style name="PlayerPlayEndTextTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/play_end_text_textview_left_margin</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">@dimen/text_size_22_sp</item>
+        <item name="android:text">@string/play_end</item>
+    </style>
+    <style name="PlayerExitButtonTheme" parent="@android:style/ButtonBar">
+        <item name="android:layout_width">@dimen/player_exit_or_play_end_btn_width</item>
+        <item name="android:layout_height">@dimen/player_exit_or_play_end_btn_height</item>
+        <item name="android:layout_marginLeft">@dimen/player_exit_or_play_end_btn_left_margin</item>
+        <item name="android:paddingTop">@dimen/player_exit_or_play_end_btn_top_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/player_exit_button_bg</item>
+        <item name="android:textColor">@drawable/player_exit_button_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_22_sp</item>
+    </style>
+
+    <style name="PlayerExitRecommendTextTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/player_eixt_recommend_name_textview_height</item>
+        <item name="android:paddingTop">@dimen/player_eixt_recommend_name_textview_top_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/player_recommend_text_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:textSize">@dimen/text_size_15_sp</item>
+        <item name="android:text">@string/beiai</item>
+        <item name="android:textColor">@color/color_979797</item>
+    </style>
+
+</resources>

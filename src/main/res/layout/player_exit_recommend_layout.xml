@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/player_exit_recommend_layout_left_margin"
+    android:layout_marginTop="@dimen/player_exit_recommend_layout_top_margin"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/player_exit_recommend_parting_line_textview"
+        android:layout_width="@dimen/player_exit_vertial_dividing_line_textview_width"
+        android:layout_height="@dimen/player_exit_recommend_parting_line_textview_height"
+        android:layout_marginTop="@dimen/player_exit_recommend_parting_line_textview_top_margin"
+        android:background="@color/color_20ffffff" />
+
+    <LinearLayout
+        android:layout_width="@dimen/player_exit_recommend_actors_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/player_exit_recommend_actors_left_margin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/actors"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20_sp" />
+
+        <com.pkit.launcher.view.ActorListViewWrapper
+            android:id="@+id/player_exit_recommend_actors_listview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/player_eixt_recommend_actors_listview_height"
+            android:clipChildren="false"
+            android:layout_marginTop="@dimen/player_eixt_recommend_actors_listview_top_margin"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/player_exit_recommend_actors_listview_dvide_height"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <ImageView
+            android:id="@+id/player_exit_arrow_down_icon"
+            android:layout_width="@dimen/player_exit_recommend_downarrow_img_top_width"
+            android:layout_height="@dimen/player_exit_recommend_downarrow_img_top_height"
+            android:visibility="gone"
+            android:background="@drawable/player_end_icon_downarrow_img" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/player_exit_relative_recommend_title_llt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/player_exit_relative_recommend_title_llt_left_margin"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/player_exit_recommend_icon_img_width"
+                android:layout_height="@dimen/player_exit_recommend_icon_img_height"
+                android:background="@drawable/player_recommend_icon_img" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/player_exit_relative_recommend_text_textview_left_marigin"
+                android:text="@string/relative_recommend"
+                android:textColor="@color/color_dfdfdf"
+                android:textSize="@dimen/text_size_20_sp"
+                />
+        </LinearLayout>
+        <!-- 播放完成页推荐位（3个） -->
+        <RelativeLayout
+            android:id="@+id/player_exit_recommend_container"
+            android:layout_width="@dimen/player_exit_recommend_contaienr_width"
+            android:layout_height="@dimen/player_exit_recommend_contaienr_height"
+            android:layout_marginTop="@dimen/player_exit_recommend_contaienr_top_margin"
+            android:layout_below="@id/player_exit_relative_recommend_title_llt"
+            android:gravity="center_vertical"
+             >
+            
+            <!--  
+            <RelativeLayout
+                android:id="@+id/player_exit_recommend_item1_rlt"
+                android:layout_width="@dimen/player_exit_recommed_rlt_width"
+                android:layout_height="@dimen/player_exit_recommed_rlt_height"
+                android:layout_marginLeft="@dimen/player_exit_recommed1_rlt_left_margin"
+                android:layout_marginTop="@dimen/player_exit_recommeds_llt_top_margin"
+                android:focusable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/player_exit_recommned_item1_poster_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/player_exit_recommned_poster_img_margin"
+                    android:background="@drawable/test_play_alllook_poster_6" />
+
+                <ImageView
+                    android:id="@+id/player_exit_recommend1_focus_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/player_exit_recommend_item__focus_bg"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/player_exit_recommend_item1_name_textview"
+                    style="@style/PlayerExitRecommendTextTheme"
+                    android:layout_alignBottom="@id/player_exit_recommned_item1_poster_img"
+                    android:layout_alignLeft="@id/player_exit_recommned_item1_poster_img"
+                    android:layout_alignRight="@id/player_exit_recommned_item1_poster_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/player_exit_recommend_item2_rlt"
+                android:layout_width="@dimen/player_exit_recommed_rlt_width"
+                android:layout_height="@dimen/player_exit_recommed_rlt_height"
+                android:layout_marginLeft="@dimen/player_exit_recommed2_rlt_left_margin"
+                android:layout_marginTop="@dimen/player_exit_recommeds_llt_top_margin"
+                android:focusable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/player_exit_recommend_item2_poster_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/player_exit_recommned_poster_img_margin"
+                    android:background="@drawable/test_play_alllook_poster_1" />
+
+                <ImageView
+                    android:id="@+id/player_exit_recommend2_focus_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/player_exit_recommend_item__focus_bg"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/player_exit_recommend_item2_name_textview"
+                    style="@style/PlayerExitRecommendTextTheme"
+                    android:layout_alignBottom="@id/player_exit_recommend_item2_poster_img"
+                    android:layout_alignLeft="@id/player_exit_recommend_item2_poster_img"
+                    android:layout_alignRight="@id/player_exit_recommend_item2_poster_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/player_exit_recommend_item3_rlt"
+                android:layout_width="@dimen/player_exit_recommed_rlt_width"
+                android:layout_height="@dimen/player_exit_recommed_rlt_height"
+                android:layout_marginLeft="@dimen/player_exit_recommed3_rlt_left_margin"
+                android:layout_marginTop="@dimen/player_exit_recommeds_llt_top_margin"
+                android:focusable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/player_exit_recommend3_poster_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/player_exit_recommned_poster_img_margin"
+                    android:background="@drawable/test_play_alllook_poster_5" />
+
+                <ImageView
+                    android:id="@+id/player_exit_recommend3_focus_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/player_exit_recommend_item__focus_bg"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/player_exit_recommend3_name_textview"
+                    style="@style/PlayerExitRecommendTextTheme"
+                    android:layout_alignBottom="@id/player_exit_recommend3_poster_img"
+                    android:layout_alignLeft="@id/player_exit_recommend3_poster_img"
+                    android:layout_alignRight="@id/player_exit_recommend3_poster_img" />
+            </RelativeLayout>
+            -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

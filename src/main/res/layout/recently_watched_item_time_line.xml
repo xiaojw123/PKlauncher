@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/time_line_item_width"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginTop="@dimen/time_line_item_line_margin_top"
+        android:background="@color/time_line_background" />
+
+    <ImageView
+        android:id="@+id/timepoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/time_line_item_point_margin_top"
+        android:src="@drawable/recently_watched_timepoint" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/time_line_item_text_margin_left"
+        android:layout_marginTop="@dimen/time_line_item_text_margin_top"
+        android:layout_toRightOf="@id/timepoint"
+        android:textColor="@color/time_line_text_color"
+        android:textSize="@dimen/text_size_20_sp" />
+</RelativeLayout>

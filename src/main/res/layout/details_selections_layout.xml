@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_selections_bg" >
+
+    <RelativeLayout
+        android:id="@+id/details_selections_preview_bg"
+        android:layout_width="@dimen/details_selections_preview_bg_width"
+        android:layout_height="@dimen/details_selections_preview_bg_height"
+        android:layout_marginTop="@dimen/details_selections_preview_bg_top_margin"
+        android:background="@drawable/details_selections_preview_bg"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/details_selections_preview_img"
+            android:layout_width="@dimen/details_selections_preview_img_width"
+            android:layout_height="@dimen/details_selections_preview_img_height"
+            android:layout_marginLeft="@dimen/details_selections_preview_img_left_margin"
+            android:layout_marginTop="@dimen/details_selections_preview_img_top_margin"
+            android:background="@drawable/details_selections_preview_img" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/details_selections_sets_viewpager"
+        android:layout_width="@dimen/details_selections_viewpager_width"
+        android:layout_height="@dimen/details_selections_viewpager_height"
+        android:layout_below="@id/details_selections_preview_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/details_selections_sets_viewpager_top_margin" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/details_selections_titles_viewpager"
+        android:layout_width="@dimen/details_selections_viewpager_width"
+        android:layout_height="@dimen/details_selections_viewpager_height"
+        android:layout_below="@id/details_selections_sets_viewpager"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/collection_layout_item_width"
+    android:layout_height="@dimen/collection_layout_item_height"
+    android:layout_marginLeft="3dip"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/collection_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/user_record_padding_and_margin_2px" />
+
+    <LinearLayout
+        android:id="@+id/video_text_layout"
+        android:layout_width="@dimen/collection_items_width"
+        android:layout_height="@dimen/collection_item_text_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginRight="@dimen/user_record_padding_and_margin_2px"
+        android:layout_marginLeft="@dimen/user_record_padding_and_margin_2px"
+        android:background="@drawable/recently_watched__poster_name_background"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/collection_item_text_padding_left">
+
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/user_record_itme_text_color"
+            android:textSize="@dimen/text_size_20_sp" />
+
+        <TextView
+            android:id="@+id/video_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/user_record_itme_text_color"
+            android:textSize="@dimen/text_size_14_sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/focus_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_poster_focus"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/delete_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/user_record_padding_and_margin_2px"
+        android:padding="60dip"
+        android:background="@color/user_record_item_delete_background"
+        android:scaleType="centerInside"
+        android:src="@drawable/recently_watched_delete_icon"
+        android:visibility="gone" />
+
+</RelativeLayout>

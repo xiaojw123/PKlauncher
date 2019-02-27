@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="home_tabwedget_view1_width">65dip</dimen>
+    <dimen name="home_tabwedget_view1_height">30dip</dimen>
+    <dimen name="home_tabwedget_view1_margin">15dip</dimen>
+
+    <dimen name="home_recommend_3_margin">107dip</dimen>
+    <dimen name="home_topic_margin">56dip</dimen>
+    <dimen name="staggered_dimen">100dip</dimen>
+    
+    <dimen name="home_linear_layout_height">45dip</dimen>
+    <dimen name="home_linear_layout_margin_top">30dip</dimen>
+    <dimen name="home_logo_width">42dip</dimen>
+    <dimen name="home_logo_height">42dip</dimen>
+    <dimen name="home_logo_margin_left">60dip</dimen>
+    <dimen name="home_line1_width">1dip</dimen>
+    <dimen name="home_line1_margin_left">23dip</dimen>
+    <dimen name="home_tabwidget_width">395dip</dimen>
+    <dimen name="home_linear_layout1_height">32dip</dimen>
+    <dimen name="home_linear_layout1_margin_right">30dip</dimen>
+    <dimen name="home_line2_width">1dip</dimen>
+    <dimen name="home_line2_height">16dip</dimen>
+    <dimen name="home_line2_margin_left">15dip</dimen>
+    <dimen name="home_date_view_margin_left">15dip</dimen>
+    <dimen name="home_image_view_width">35dip</dimen>
+    <dimen name="home_image_view_height">28dip</dimen>
+    <dimen name="home_image_view_margin_left">15dip</dimen>
+    <dimen name="home_viewpager_height">375dip</dimen>
+    <dimen name="home_vewpager_margin_top">112dip</dimen>
+
+    <dimen name="home_recommend_1_width">241dip</dimen>
+    <dimen name="home_recommend_1_height">323dip</dimen>
+
+    <dimen name="home_recommend_2_width">242dip</dimen>
+    <dimen name="home_recommend_2_height">213dip</dimen>
+
+    <dimen name="home_recommend_3_width">242dip</dimen>
+    <dimen name="home_recommend_3_height">106dip</dimen>
+
+    <dimen name="home_recommend_margin_left">5dip</dimen>
+
+    <dimen name="home_recommend_text_height">45dip</dimen>
+    <dimen name="home_recommend_text_margin_left">10dip</dimen>
+    <dimen name="home_recommend_text_margin_bottom">10dip</dimen>
+
+    <dimen name="home_recommend_text_shade_height">64dip</dimen>
+    <dimen name="home_recommend_1_text_shade_margin">1dip</dimen>
+
+    <dimen name="home_recommend_film_quality_width">51dip</dimen>
+    <dimen name="home_recommend_film_quality_height">27dip</dimen>
+    <dimen name="home_recommend_film_quality_margin_right">7dip</dimen>
+    <dimen name="home_recommend_film_quality_margin_top">7dip</dimen>
+
+    <dimen name="home_recommend_margin_and_padding_2px">1dip</dimen>
+    <dimen name="home_recommend_margin_and_padding_3dip">3dip</dimen>
+
+    <dimen name="home_recommend_user_record_width">102dip</dimen>
+    <dimen name="home_recommend_user_record_height">103dip</dimen>
+    <dimen name="home_recommend_user_record_image_width">52dip</dimen>
+    <dimen name="home_recommend_user_record_image_height">52dip</dimen>
+    <dimen name="home_recommend_user_record_text_margin_top">7dip</dimen>
+
+    <dimen name="home_recommend_topic_width">244dip</dimen>
+    <dimen name="home_recommend_topic_height">159dip</dimen>
+    <dimen name="home_recommend_topic_text_width">45dip</dimen>
+    <dimen name="home_recommend_topic_text_height">42dip</dimen>
+    <dimen name="home_recommend_topic_text_padding_start">8dip</dimen>
+    <dimen name="home_recommend_topic_text_padding_top">3dip</dimen>
+
+    <dimen name="home_recommend_poster_layout_width">307dip</dimen>
+    <dimen name="home_recommend_poster_layout_height">323dip</dimen>
+    <dimen name="home_recommend_poster_image_height">207dip</dimen>
+    <dimen name="home_recommend_poster_text1_layout_height">42dip</dimen>
+    <dimen name="home_recommend_poster_text1_image_width">60dip</dimen>
+    <dimen name="home_recommend_poster_text1_image_margin_left">14dip</dimen>
+    <dimen name="home_recommend_poster_text1_image_margin_top">6dip</dimen>
+    <dimen name="home_recommend_poster_text1_image1_height">36dip</dimen>
+    <dimen name="home_recommend_poster_text1_image2_height">25dip</dimen>
+    <dimen name="home_recommend_poster_text1_image3_height">25dip</dimen>
+    <dimen name="home_recommend_poster_text_margin_left">15dip</dimen>
+    <dimen name="home_recommend_poster_text2_height">39dip</dimen>
+    <dimen name="home_recommend_poster_text3_height">36dip</dimen>
+    <dimen name="home_recommend_poster_text2_layout_height">33dip</dimen>
+    <dimen name="home_recommend_poster_text3_layout_height">33dip</dimen>
+    <dimen name="home_recommend_poster_text1_image3_margin_top">3dip</dimen>
+    <dimen name="home_place_holder_height">2dip</dimen>
+    <dimen name="home_recommend_layout_height">383dip</dimen>
+    <dimen name="home_recommend_layout_padding_left">45dip</dimen>
+    <dimen name="home_recommend_layout_padding_top">22dip</dimen>
+    <dimen name="home_recommend_layout_padding_right">22dip</dimen>
+    <dimen name="home_recommend_layout_padding_bottom">22dip</dimen>
+
+    <!--Settings -->
+    <dimen name="home_settings_view_padding_start">93dip</dimen>
+    <dimen name="home_settings_view_padding_top">11dip</dimen>
+    <dimen name="home_settings_view_padding_end">27dip</dimen>
+    <dimen name="home_settings_view_padding_bottom">11dip</dimen>
+    <dimen name="home_settings_item_width">256dip</dimen>
+    <dimen name="home_settings_item_image_width">130dip</dimen>
+    <dimen name="home_settings_item_image_height">130dip</dimen>
+    <dimen name="home_settings_item_image_margin_top">10dip</dimen>
+    <dimen name="home_settings_item_text_margin_bottom">20dip</dimen>
+
+    <!--mine-->
+
+    <dimen name="home_mine_view_padding_start">157dip</dimen>
+    <dimen name="home_mine_view_padding_top">26dip</dimen>
+    <dimen name="home_mine_view_padding_end">27dip</dimen>
+    <dimen name="home_mine_view_padding_bottom">41dip</dimen>
+    <dimen name="home_mine_item_width">210dip</dimen>
+    <dimen name="home_mine_item_image_width">108dip</dimen>
+    <dimen name="home_mine_item_image_height">96dip</dimen>
+    <dimen name="home_mine_item_image_margin_top">37dip</dimen>
+    <dimen name="home_mine_item_text_margin_top">105dip</dimen>
+
+    <!--television-->
+    <dimen name="home_television_item_width">210dip</dimen>
+    <dimen name="home_television_view_padding_start">51dip</dimen>
+    <dimen name="home_television_view_padding_top">26dip</dimen>
+    <dimen name="home_television_view_padding_end">27dip</dimen>
+    <dimen name="home_television_view_padding_bottom">41dip</dimen>
+    <dimen name="home_television_textview_height">36dip</dimen>
+    <dimen name="home_television_textview_margin_top">13dip</dimen>
+    <dimen name="home_television_image_width">210dip</dimen>
+    <dimen name="home_television_image_height">198dip</dimen>
+    <dimen name="home_television_textview1_margin_start">12dip</dimen>
+    <dimen name="home_television_view1_width">1dip</dimen>
+    <dimen name="home_television_view1_height">37dip</dimen>
+    <dimen name="home_television_view1_margin_top">13dip</dimen>
+    <dimen name="home_television_view1_margin_end">9dip</dimen>
+    <dimen name="home_television_view1_margin_start">6dip</dimen>
+    <dimen name="home_television_linear_margin_top">9dip</dimen>
+
+
+</resources>

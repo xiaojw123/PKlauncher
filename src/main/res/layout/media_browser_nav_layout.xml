@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_browser_nav"
+    android:layout_width="@dimen/media_browser_nav_width"
+    android:layout_height="@dimen/media_browser_nav_height"
+    android:layout_marginTop="@dimen/media_browser_nav_top" >
+
+    <LinearLayout
+        android:id="@+id/media_browser_search"
+        android:layout_width="@dimen/media_browser_search_width"
+        android:layout_height="@dimen/media_browser_search_height"
+        android:layout_marginLeft="@dimen/media_browser_search_left"
+        android:background="@drawable/media_browser_menu_bg"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/media_browser_search_icon_width"
+            android:layout_height="@dimen/media_browser_search_icon_height"
+            android:layout_marginLeft="@dimen/media_browser_search_icon_left"
+            android:src="@drawable/media_browser_search_icon_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/media_browser_search_text_left"
+            android:gravity="center_vertical"
+            android:text="@string/search_text"
+            android:textColor="@drawable/media_browser_text_color"
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/media_browser_search_line"
+        android:layout_width="@dimen/media_browser_line_width"
+        android:layout_height="@dimen/media_browser_line_height_1"
+        android:layout_below="@id/media_browser_search"
+        android:layout_marginLeft="@dimen/media_browser_line_left"
+        android:layout_marginTop="@dimen/media_browser_line_top_1"
+        android:background="@color/white_1" />
+
+    <LinearLayout
+        android:id="@+id/media_browser_selector"
+        android:layout_width="@dimen/media_browser_selector_width"
+        android:layout_height="@dimen/media_browser_selector_height"
+        android:layout_marginLeft="@dimen/media_browser_selector_left"
+        android:layout_marginTop="@dimen/media_browser_selector_top"
+        android:background="@drawable/media_browser_menu_bg"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/media_browser_selector_icon_width"
+            android:layout_height="@dimen/media_browser_selector_icon_height"
+            android:layout_marginLeft="@dimen/media_browser_selector_icon_left"
+            android:src="@drawable/media_browser_selector_icon_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/media_browser_selector_text_left"
+            android:gravity="center_vertical"
+            android:text="@string/selector_text"
+            android:textColor="@drawable/media_browser_text_color"
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/media_browser_selector_line"
+        android:layout_width="@dimen/media_browser_line_width"
+        android:layout_height="@dimen/media_browser_line_height_1"
+        android:layout_below="@id/media_browser_selector"
+        android:layout_marginLeft="@dimen/media_browser_line_left"
+        android:layout_marginTop="@dimen/media_browser_line_top_1"
+        android:background="@color/white_1" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/media_browser_all" -->
+    <!-- android:layout_width="@dimen/media_browser_all_width" -->
+    <!-- android:layout_height="@dimen/media_browser_all_height" -->
+    <!-- android:layout_marginLeft="@dimen/media_browser_all_left" -->
+    <!-- android:layout_marginTop="@dimen/media_browser_all_top" -->
+    <!-- android:background="@drawable/media_browser_menu_bg" -->
+    <!-- android:clickable="true" -->
+    <!-- android:focusable="true" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="@string/all_text" -->
+    <!-- android:textColor="@drawable/media_browser_menu_color" -->
+    <!-- android:textSize="@dimen/text_size_18_sp" /> -->
+
+
+    <!-- <View -->
+    <!-- android:layout_width="@dimen/media_browser_line_width" -->
+    <!-- android:layout_height="@dimen/media_browser_line_height_2" -->
+    <!-- android:layout_below="@id/media_browser_all" -->
+    <!-- android:layout_marginLeft="@dimen/media_browser_line_left" -->
+    <!-- android:layout_marginTop="@dimen/media_browser_line_top_2" -->
+    <!-- android:background="@color/white_1" /> -->
+
+    <RelativeLayout
+        android:id="@+id/media_browser_menu_list_container"
+        android:layout_width="@dimen/media_browser_menu_list_width"
+        android:layout_height="@dimen/media_browser_menu_list_height"
+        android:layout_marginLeft="@dimen/media_browser_menu_list_left"
+        android:layout_marginTop="@dimen/media_browser_menu_list_top"
+        android:clipChildren="false" >
+
+        <com.pkit.launcher.view.ListViewWrapper
+            android:id="@+id/media_browser_menu_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:divider="@color/transparent_1"
+            android:dividerHeight="@dimen/media_browser_menu_list_space"
+            android:listSelector="@drawable/media_browser_menu_bg"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

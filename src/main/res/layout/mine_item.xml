@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/home_mine_item_width"
+    android:layout_marginRight="@dimen/home_recommend_margin_and_padding_3dip"
+    android:layout_height="match_parent"
+    android:nextFocusUp="@id/tab3"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/home_mine_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_my_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/home_mine_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/home_mine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40px"
+            android:textColor="@color/settings_text_color"
+            android:textSize="@dimen/text_size_24_sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/home_mine_focus_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/home_poster_focus" />
+</RelativeLayout>

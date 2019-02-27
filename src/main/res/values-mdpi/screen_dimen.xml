@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sceen_area_container_width">81dp</dimen>
+    <dimen name="sceen_area_container_left_margin">38dp</dimen>
+    <dimen name="sceen_area_container_top_margin">37dp</dimen>
+       <dimen name="sceen_type_container_width">81dp</dimen>
+    <dimen name="sceen_type_container_left_margin">121dp</dimen>
+    <dimen name="sceen_type_container_top_margin">37dp</dimen>
+       <dimen name="sceen_years_container_width">91dp</dimen>
+    <dimen name="sceen_years_container_left_margin">203dp</dimen>
+    <dimen name="sceen_years_container_top_margin">37dp</dimen>
+    <dimen name="sceen_divider_line_container_width">1dp</dimen>
+    <dimen name="sceen_divider_line_container_top_magin">36dp</dimen>
+    <dimen name="sceen_divider_line_container_bottom_margin">55dp</dimen>
+    <dimen name="sceen_divider_line_text_width">39dp</dimen>
+    <dimen name="sceen_divider_line_text_height">1dp</dimen>
+    <dimen name="sceen_divider_line_text_top_margin">3dp</dimen>
+    <dimen name="sceen_icon_up_arrow_top_margin">14dp</dimen>
+    <dimen name="sceen_list_height">382dp</dimen>
+    <dimen name="sceen_list_top_margin">16dp</dimen>
+    <dimen name="sceen_text_top_margin">36dp</dimen>
+    <dimen name="sceen_list_bottom_margin">16dp</dimen>
+</resources>

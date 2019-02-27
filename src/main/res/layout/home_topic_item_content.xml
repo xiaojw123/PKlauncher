@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/recommend_film_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <View
+        android:layout_width="@dimen/home_recommend_topic_text_width"
+        android:layout_height="@dimen/home_recommend_topic_text_height"
+        android:background="@drawable/home_topic_item_icon" />
+
+    <TextView
+        android:id="@+id/recommend_film_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_recommend_text_height"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/home_recommend_text_margin_left"
+        android:gravity="center_vertical"
+        android:textColor="@color/recommend_film_name_color"
+        android:textSize="@dimen/text_size_18_sp"
+        android:background="@drawable/home_recommend1_textview_bg"/>
+    <ImageView
+        android:id="@+id/recommend_focus_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_poster_unfocus"/>
+</merge>

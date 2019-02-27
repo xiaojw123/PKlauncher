@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recently_watched_layout_height"
+    android:orientation="vertical">
+    <com.pkit.launcher.view.HomeRecyclerView
+        android:id="@+id/time_line"
+        android:layout_width="@dimen/recently_watched_content_width"
+        android:layout_height="@dimen/recently_watched_time_line_height"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/recently_watched_content_padding_start"
+        android:layout_marginLeft="@dimen/recently_watched_content_margin_start"
+        android:layout_marginRight="@dimen/recently_watched_content_margin_end"
+        android:paddingRight="@dimen/recently_watched_content_padding_end"
+        android:scrollbars="none"/>
+    <com.pkit.launcher.view.HomeRecyclerView
+        android:id="@+id/list"
+        android:layout_width="@dimen/recently_watched_content_width"
+        android:layout_height="@dimen/recently_watched_content_height"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/recently_watched_content_padding_start"
+        android:paddingTop="26dip"
+        android:layout_marginLeft="@dimen/recently_watched_content_margin_start"
+        android:layout_marginRight="@dimen/recently_watched_content_margin_end"
+        android:paddingRight="@dimen/recently_watched_content_padding_end"
+        android:scrollbars="none"/>
+</LinearLayout>

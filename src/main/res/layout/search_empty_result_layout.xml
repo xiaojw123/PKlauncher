@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false" >
+
+    <TextView
+        android:id="@+id/search_result_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/z_search_result_text_3_left"
+        android:layout_marginTop="@dimen/z_search_result_text_3_top"
+        android:drawablePadding="@dimen/search_result_no_condition_tv_drawable_padding"
+        android:drawableTop="@drawable/search_iocn_lose"
+        android:text="@string/current_condition_no_result"
+        android:textColor="@color/color_fafafa"
+        android:textSize="@dimen/text_size_18_sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/z_search_result_text_4_left"
+        android:layout_marginTop="@dimen/z_search_result_text_4_top"
+        android:gravity="left"
+        android:text="@string/recommend_for_you"
+        android:textColor="@color/color_00d360"
+        android:textSize="@dimen/text_size_18_sp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:layout_width="@dimen/z_search_recommend_item_list_width"
+        android:layout_height="@dimen/z_search_recommend_item_list_height"
+        android:layout_marginLeft="@dimen/z_search_recommend_item_list_left"
+        android:layout_marginTop="@dimen/z_search_recommend_item_list_top"
+        android:clipChildren="false" >
+
+        <RelativeLayout
+            android:id="@+id/search_recommend_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/z_search_recommend_item_list_height"
+            android:clipChildren="false" />
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">PK_Launcher</string>
+    <!-- media browser -->
+    <string name="search_text">搜索</string>
+    <string name="selector_text">筛选</string>
+    <string name="all_text">全部</string>
+    <string name="count_text">共%1$s部</string>
+    <string name="children_lock" >童锁</string>
+    <string name="default_scroll_format">Page %1$d of %2$d</string>
+    <string name="workspace_description_format">Home screen %1$d</string>
+    <string name="workspace_scroll_format">Home screen %1$d of %2$d</string>
+
+</resources>
